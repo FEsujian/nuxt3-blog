@@ -24,6 +24,7 @@
     "@nuxtjs/i18n": "^8.2.0",
     "@nuxtjs/tailwindcss": "npm:@nuxtjs/tailwindcss@nightly",
     "@pinia-plugin-persistedstate/nuxt": "^1.2.0",
+    "nuxt-icon": "^0.6.10",
     "nuxt-lucide-icons": "^1.0.4",
     "sass": "^1.72.0"
   }

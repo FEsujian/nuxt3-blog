@@ -1,16 +1,16 @@
 <template>
     <div class="flex items-center justify-between  p-4 app-header">
         <!-- 左侧 Logo -->
-        <div class="flex items-center space-x-2">
-            <!-- <img src="logo.png" alt="Blog Logo" class="h-8 w-8"> -->
+        <div class="flex items-center space-x-2 cursor-pointer">
+            <img src="/assets//images/logo.svg" alt="Blog Logo" class="h-8 w-8">
             <span class="font-bold text-2xl">FEsujian</span>
         </div>
 
         <!-- 中间菜单 -->
-        <nav class="flex-grow flex justify-center space-x-4">
-            <a href="#" class="text-xl">Projects</a>
-            <a href="#" class="text-xl">About Me</a>
-            <a href="#" class="text-xl">Contact</a>
+        <nav class="hidden md:flex flex-grow justify-center space-x-4">
+            <a href="#" class="text-xl hover:text-blue-600">Projects</a>
+            <a href="#" class="text-xl hover:text-blue-600">About Me</a>
+            <a href="#" class="text-xl hover:text-blue-600">Contact</a>
         </nav>
 
         <div class="flex items-center space-x-4">
@@ -29,15 +29,19 @@
                 @click="$colorMode.preference = 'light'">
                 <IconSeparatorVertical :size="16" />
             </button>
+            <button class="bg-gray-100 p-3 rounded-lg block md:hidden">
+                <IconMenu :size="16" />
+            </button>
         </div>
+
+
+
+
+
     </div>
 </template>
 
 <script setup>
-const colorMode = useColorMode();
-const toggleTheme = () => {
-    colorMode.preference = colorMode.preference === 'dark' ? 'light' : 'dark';
-};
 </script>
 
 <style lang="scss" scoped></style>

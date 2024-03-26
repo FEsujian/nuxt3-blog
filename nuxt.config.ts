@@ -15,7 +15,8 @@ export default defineNuxtConfig({
     '@nuxtjs/strapi',
     '@pinia/nuxt',
     '@pinia-plugin-persistedstate/nuxt',
-    'nuxt-lucide-icons'
+    'nuxt-lucide-icons',
+    'nuxt-icon'
   ],
   lucide: {
     namePrefix: 'Icon'
@@ -30,8 +31,8 @@ export default defineNuxtConfig({
     head: {
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1.0",
-      title: "XXX Blog",
-      meta: [{ name: "description", content: "XXX Blog" }],
+      title: "FE sujian's Blog",
+      meta: [{ name: "description", content: "FE Sujian's Blog" }],
     },
   },
   colorMode: {
