@@ -1,0 +1,13 @@
+@import "normalize.css/normalize.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Alibaba";
+  src: url("../fonts/AlibabaPuHuiTi-3-55-Regular.ttf") format("truetype");
+}
+
+body {
+  font-family: "Alibaba", sans-serif;
+}

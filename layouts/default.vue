@@ -1,11 +1,12 @@
 <template>
-    <div class="">
+    <div class="container mx-auto">
         <!-- App header -->
         <AppHeader />
         <!-- Render contents with transition -->
         <transition name="fade" mode="out-in">
-            <!-- App main -->
-            <AppMain />
+            <main class="app-main">
+                <slot></slot>
+            </main>
         </transition>
 
         <!-- App footer -->
@@ -15,12 +16,10 @@
 
 <script setup>
 import AppHeader from "./components/AppHeader.vue";
-import AppMain from "./components/AppMain.vue";
 import AppFooter from "./components/AppFooter.vue";
 </script>
 
 <style>
-
 .fade-enter-active {
     animation: coming 0.4s;
     animation-delay: 0.2s;

@@ -5,13 +5,21 @@ export default defineNuxtConfig({
     port: 3001
   },
   devtools: { enabled: true },
+  css: [
+    "~/assets/styles/index.scss"
+  ],
   modules: [
     '@nuxtjs/i18n',
+    '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
     '@nuxtjs/strapi',
     '@pinia/nuxt',
     '@pinia-plugin-persistedstate/nuxt',
+    'nuxt-lucide-icons'
   ],
+  lucide: {
+    namePrefix: 'Icon'
+  },
   postcss: {
     plugins: {
       tailwindcss: {},
@@ -27,13 +35,13 @@ export default defineNuxtConfig({
     },
   },
   colorMode: {
-    preference: 'system', // default value of $colorMode.preference
-    fallback: 'light', // fallback value if not system preference found
+    preference: 'system',
+    fallback: 'light',
     hid: 'nuxt-color-mode-script',
     globalName: '__NUXT_COLOR_MODE__',
     componentName: 'ColorScheme',
     classPrefix: '',
-    classSuffix: '-mode',
+    classSuffix: '',
     storageKey: 'nuxt-color-mode'
   }
 })
