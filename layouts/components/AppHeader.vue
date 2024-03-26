@@ -1,0 +1,9 @@
+<template>
+    <div class="app-header">
+        Header
+    </div>
+</template>
+
+<script setup></script>
+
+<style lang="scss" scoped></style>
