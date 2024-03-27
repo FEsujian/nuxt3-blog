@@ -13,31 +13,12 @@
             <a href="#" class="text-xl hover:text-blue-600">Contact</a>
         </nav>
 
-        <div class="flex items-center space-x-4">
+        <div class="flex items-center space-x-2">
             <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg">Hire Me</button>
-
-            <!-- 切换 Light/Dark 模式按钮 -->
-            <button class="bg-gray-100 p-3 rounded-lg" v-show="$colorMode.value === 'light'"
-                @click="$colorMode.preference = 'dark'">
-                <IconSun :size="16" />
-            </button>
-            <button class="bg-gray-500 p-3 rounded-lg" v-show="$colorMode.value === 'dark'"
-                @click="$colorMode.preference = 'sepia'">
-                <IconMoon :size="16" />
-            </button>
-            <button class="bg-gray-500 p-3 rounded-lg" v-show="$colorMode.value === 'sepia'"
-                @click="$colorMode.preference = 'light'">
-                <IconSeparatorVertical :size="16" />
-            </button>
-            <button class="bg-gray-100 p-3 rounded-lg block md:hidden">
+            <button class="bg-gray-50 p-3 rounded-lg block md:hidden dark:bg-gray-500">
                 <IconMenu :size="16" />
             </button>
         </div>
-
-
-
-
-
     </div>
 </template>
 
