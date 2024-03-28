@@ -18,6 +18,7 @@ export default defineNuxtConfig({
     '@pinia-plugin-persistedstate/nuxt',
     'nuxt-lucide-icons',
     'nuxt-icon',
+    'nuxt-particles',
     ['nuxt-mail', {
       message: {
         to: '744929434@qq.com', // 收件人邮箱
