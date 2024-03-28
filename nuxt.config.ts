@@ -6,7 +6,8 @@ export default defineNuxtConfig({
   },
   devtools: { enabled: true },
   css: [
-    "~/assets/styles/index.scss"
+    "~/assets/styles/index.scss",
+    "vue-final-modal/style.css",
   ],
   modules: [
     '@nuxtjs/i18n',
@@ -16,7 +17,20 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@pinia-plugin-persistedstate/nuxt',
     'nuxt-lucide-icons',
-    'nuxt-icon'
+    'nuxt-icon',
+    ['nuxt-mail', {
+      message: {
+        to: '744929434@qq.com', // 收件人邮箱
+      },
+      smtp: {
+        host: "smtp.qq.com", // SMTP 服务器地址
+        port: 25, // SMTP 服务器端口
+        auth: {
+          user: '744929434@qq.com',
+          pass: 'yvutvjifcdbgbeje'
+        },
+      },
+    }],
   ],
   lucide: {
     namePrefix: 'Icon'

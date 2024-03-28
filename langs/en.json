@@ -1,0 +1,23 @@
+{
+  "header": {
+    "projects": "Projects",
+    "aboutMe": "About Me",
+    "contact": "Contact",
+    "hireMe": "Hire Me"
+  },
+  "footer": {
+    "followMe": "Follow Me",
+    "createdBy": "Created by {name}",
+    "developedBy": "Developed by",
+    "copyright": "© 2024 All Rights Reserved. Shaanxi ICP License No. 2023012417-4"
+  },
+  "contact": {
+    "closeModal": "Close",
+    "title": "What kind of project do you want to develop?",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "projectContent": "Project Content",
+    "send": "Send"
+  }
+}

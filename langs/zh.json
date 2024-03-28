@@ -1,0 +1,23 @@
+{
+  "header": {
+    "projects": "项目",
+    "aboutMe": "关于我",
+    "contact": "联系",
+    "hireMe": "聘请我"
+  },
+  "footer": {
+    "followMe": "关注我",
+    "createdBy": "本网站使用",
+    "developedBy": "设计及开发",
+    "copyright": "©2024 版权所有 陕ICP备2023012417号-4"
+  },
+  "contact": {
+    "closeModal": "关闭",
+    "title": "您想开发什么样的项目？",
+    "name": "姓名",
+    "email": "邮箱",
+    "phone": "电话",
+    "projectContent": "项目内容",
+    "send": "发送"
+  }
+}

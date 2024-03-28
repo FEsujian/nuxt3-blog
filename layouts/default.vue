@@ -13,7 +13,7 @@
         <AppFooter />
 
         <div class="fixed-wrap space-y-2">
-            <button class="btn-item">
+            <button class="btn-item" @click="toggleLanguage">
                 <IconLanguages :size="16" />
             </button>
             <!-- 切换 Light/Dark 模式按钮 -->
@@ -26,7 +26,7 @@
             <button class="btn-item" v-show="$colorMode.value === 'sepia'" @click="$colorMode.preference = 'light'">
                 <IconSeparatorVertical :size="16" />
             </button>
-            <button class="btn-item">
+            <button class="btn-item" v-if="showScrollButton" @click="scrollToTop">
                 <IconChevronUp :size="16" />
             </button>
         </div>
@@ -36,6 +36,39 @@
 <script setup>
 import AppHeader from "./components/AppHeader.vue";
 import AppFooter from "./components/AppFooter.vue";
+
+
+const { locale, setLocale } = useI18n();
+const toggleLanguage = () => {
+    if (locale.value === 'en') {
+        setLocale('zh');
+    } else {
+        setLocale('en');
+    }
+}
+
+const showScrollButton = ref(false);
+
+const checkScrollPosition = () => {
+    const scrollPosition = window.scrollY || document.documentElement.scrollTop;
+    showScrollButton.value = scrollPosition > window.innerHeight / 2;
+};
+
+const scrollToTop = () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+};
+
+onMounted(() => {
+    window.addEventListener('scroll', checkScrollPosition);
+});
+
+onUnmounted(() => {
+    window.removeEventListener('scroll', checkScrollPosition);
+});
+
 </script>
 
 <style lang="scss">
