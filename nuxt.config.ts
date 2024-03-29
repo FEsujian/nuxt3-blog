@@ -8,6 +8,7 @@ export default defineNuxtConfig({
   css: [
     "~/assets/styles/index.scss",
     "vue-final-modal/style.css",
+    'animate.css/animate.min.css'
   ],
   modules: [
     '@nuxtjs/i18n',
@@ -19,6 +20,8 @@ export default defineNuxtConfig({
     'nuxt-lucide-icons',
     'nuxt-icon',
     'nuxt-particles',
+    '@nuxt/content',
+    '@formkit/auto-animate/nuxt',
     ['nuxt-mail', {
       message: {
         to: '744929434@qq.com', // 收件人邮箱

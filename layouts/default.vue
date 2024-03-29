@@ -1,6 +1,4 @@
 <template>
-    <NuxtParticles id="tsparticles" :options="options" @load="onLoad">
-    </NuxtParticles>
     <div class="container mx-auto relative">
         <!-- App header -->
         <AppHeader />
@@ -32,6 +30,9 @@
                 <IconChevronUp :size="16" />
             </button>
         </div>
+        <NuxtParticles id="tsparticles" :options="options" @load="onLoad"
+            style="width:100vw;height:100vh;z-index: -1 !important;position: fixed;top:0;bottom:0;left:0;right: 0;">
+        </NuxtParticles>
     </div>
 </template>
 
@@ -74,7 +75,7 @@ onUnmounted(() => {
 const options = {
     fpsLimit: 60,
     fullScreen: {
-        enable: true,
+        enable: false,
         zIndex: -1
     },
     interactivity: {
@@ -153,12 +154,12 @@ const options = {
             value: 3
         }
     },
-    detectRetina: true
+    // detectRetina: true
 }
 const onLoad = (container) => {
     // Do something with the container
     container.pause()
-    setTimeout(() => container.play(), 0)
+    setTimeout(() => container.play(), 1000)
 }
 
 </script>

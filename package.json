@@ -10,8 +10,12 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@formkit/auto-animate": "^0.8.1",
+    "@nuxt/content": "^2.12.1",
     "@nuxtjs/strapi": "^1.11.0",
     "@pinia/nuxt": "^0.5.1",
+    "@tailwindcss/typography": "^0.5.12",
+    "animate.css": "^4.1.1",
     "axios": "^1.6.8",
     "dayjs-nuxt": "^2.1.9",
     "normalize.css": "^8.0.1",

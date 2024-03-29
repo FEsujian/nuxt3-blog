@@ -9,6 +9,7 @@
 
 <script setup>
 const colorMode = useColorMode()
+
 </script>
 
 <style lang="scss">
