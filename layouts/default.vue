@@ -73,7 +73,7 @@ onUnmounted(() => {
 });
 
 const options = {
-    fpsLimit: 60,
+    fpsLimit: 120,
     fullScreen: {
         enable: false,
         zIndex: -1
@@ -144,7 +144,7 @@ const options = {
             value: 20//粒子数
         },
         opacity: {//粒子透明度
-            value: 0.7
+            value: 0.6
         },
         shape: {//粒子样式
             type: 'star'
