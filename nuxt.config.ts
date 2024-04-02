@@ -14,7 +14,6 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
-    '@nuxtjs/strapi',
     '@pinia/nuxt',
     '@pinia-plugin-persistedstate/nuxt',
     'nuxt-lucide-icons',
@@ -22,6 +21,7 @@ export default defineNuxtConfig({
     'nuxt-particles',
     '@nuxt/content',
     '@formkit/auto-animate/nuxt',
+    '@nuxtjs/strapi',
     ['nuxt-mail', {
       message: {
         to: '744929434@qq.com', // 收件人邮箱
@@ -38,6 +38,14 @@ export default defineNuxtConfig({
   ],
   lucide: {
     namePrefix: 'Icon'
+  },
+  strapi: {
+    url: process.env.STRAPI_URL || 'http://localhost:1337',
+    prefix: '/api',
+    admin: '/admin',
+    version: 'v4',
+    cookie: {},
+    cookieName: 'strapi_jwt'
   },
   postcss: {
     plugins: {

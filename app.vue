@@ -8,8 +8,13 @@
 
 
 <script setup>
-const colorMode = useColorMode()
+const colorMode = useColorMode();
+// const { find } = useStrapi();
 
+// console.log(find, 'find')
+// const userList = find('posts')
+
+// console.log(userList, 'post')
 </script>
 
 <style lang="scss">
