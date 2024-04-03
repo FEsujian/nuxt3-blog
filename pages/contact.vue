@@ -1,6 +1,6 @@
 <template>
     <div class="">
-        <div class="text-6xl font-bold text-center my-20">Contact</div>
+        <div class="text-4xl font-bold text-center my-20">Contact</div>
     </div>
 </template>
 

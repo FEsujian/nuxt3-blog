@@ -1,6 +1,6 @@
 <template>
     <vue-final-modal v-model="state.isShowModal" v-bind="$attrs"
-        class="flex justify-center items-center relative z-50 w-full">
+        class="flex justify-center items-center relative z-50 w-full px-2">
         <div class="modal-container w-full m-auto md:w-[600px]">
             <div @click="onCancel" class="absolute top-0 right-0 m-4 text-gray-600 hover:text-blue-600 cursor-pointer">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"

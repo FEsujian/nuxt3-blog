@@ -1,8 +1,8 @@
 <template>
-    <div class=" min-h-screen py-12 px-4 sm:px-6 lg:px-8">
-        <div class="max-w-3xl mx-auto">
-            <div class="text-6xl font-bold text-center mb-16">About</div>
-            <div class="flex flex-col items-center">
+    <div class="text-4xl font-bold text-center my-20">
+        <div class="max-w-3xl md:mx-auto px-2">
+            <div class="text-4xl font-bold text-center my-20">About</div>
+            <div class="flex flex-col items-center px-4">
                 <div class="w-48 h-48 rounded-full overflow-hidden mb-8">
                     <img src="@/assets/images/avatar.png" alt="Avatar">
                 </div>
@@ -32,6 +32,7 @@
     position: relative;
     padding-left: 1.5rem;
     margin-bottom: 1rem;
+    font-size: 1rem;
     /* 控制文本与小圆点的距离 */
 }
 
@@ -39,7 +40,7 @@
     content: "";
     position: absolute;
     left: 0;
-    top: 0.6rem;
+    top: 1rem;
     /* 控制小圆点的垂直位置 */
     width: 0.5rem;
     height: 0.5rem;

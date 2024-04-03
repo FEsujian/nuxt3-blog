@@ -1,7 +1,7 @@
 <template>
-    <div class="flex items-center justify-between p-4 app-header">
+    <div class="flex items-center justify-between px-2 md:px-10 py-4 relative app-header">
         <!-- Left Logo -->
-        <NuxtLink to="/" class="flex items-center space-x-2 cursor-pointer">
+        <NuxtLink to="/" class="flex items-center space-x-2 cursor-pointer ">
             <img src="/assets//images/logo.svg" alt="Blog Logo" class="h-8 w-8">
             <span class="font-bold text-2xl">FEsujian</span>
         </NuxtLink>
@@ -20,14 +20,14 @@
         </nav>
 
         <!-- Middle Menu for Desktop -->
-        <nav class="hidden md:flex flex-grow justify-center space-x-4">
+        <nav class="hidden md:flex items-center justify-center space-x-8 absolute left-1/2 transform -translate-x-1/2">
             <NuxtLink to="/" class="text-xl hover:text-blue-600" active-class="text-blue-600">
                 {{ $t('header.projects') }}
             </NuxtLink>
             <NuxtLink to="/about" class="text-xl hover:text-blue-600" active-class="text-blue-600">
                 {{ $t('header.aboutMe') }}
             </NuxtLink>
-            <!-- <NuxtLink to="/contact" class="text-xl hover:text-blue-600">
+            <!-- <NuxtLink to="/contact" class="text-xl hover:text-blue-600" active-class="text-blue-600">
                 {{ $t('header.contact') }}
             </NuxtLink> -->
         </nav>
