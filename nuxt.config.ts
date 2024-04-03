@@ -22,6 +22,8 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@formkit/auto-animate/nuxt',
     '@nuxtjs/strapi',
+    '@bytemd/vue-next',
+    '@bytemd/plugin-gfm',
     ['nuxt-mail', {
       message: {
         to: '744929434@qq.com', // 收件人邮箱
