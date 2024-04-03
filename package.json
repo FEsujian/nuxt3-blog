@@ -10,6 +10,15 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@bytemd/plugin-breaks": "^1.21.0",
+    "@bytemd/plugin-frontmatter": "^1.21.0",
+    "@bytemd/plugin-gemoji": "^1.21.0",
+    "@bytemd/plugin-gfm": "^1.21.0",
+    "@bytemd/plugin-highlight-ssr": "^1.21.0",
+    "@bytemd/plugin-math-ssr": "^1.21.0",
+    "@bytemd/plugin-medium-zoom": "^1.21.0",
+    "@bytemd/plugin-mermaid": "^1.21.0",
+    "@bytemd/vue-next": "^1.21.0",
     "@formkit/auto-animate": "^0.8.1",
     "@nuxt/content": "^2.12.1",
     "@nuxtjs/strapi": "^1.11.0",

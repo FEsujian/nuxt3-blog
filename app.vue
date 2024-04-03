@@ -34,6 +34,26 @@ const colorMode = useColorMode();
   .lucide {
     color: #ebf4f1;
   }
+
+  // .bytemd {
+  //   background-color: #091a28;
+
+  //   .bytemd-toolbar,
+  //   .bytemd-editor,
+  //   .bytemd-editor .CodeMirror,
+  //   .CodeMirror-lines,
+  //   .CodeMirror-code,
+  //   .bytemd-preview {
+  //     background-color: #091a28;
+  //     color: #ebf4f1;
+  //     caret-color: #ebf4f1;
+  //   }
+
+  //   .bytemd-toolbar-icon,
+  //   .bytemd-status {
+  //     color: #ebf4f1;
+  //   }
+  // }
 }
 
 .sepia body {
