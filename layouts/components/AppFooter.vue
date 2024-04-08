@@ -18,7 +18,7 @@
         </div>
         <div class="text-center mt-10 font-light">
             {{ $t('footer.createdBy') }}
-            <span class="text-lg font-normal">Nuxt.js & TailwindCSS</span>
+            <span class="text-lg font-normal">Nuxt.js & Strapi & TailwindCSS</span>
             {{ $t('footer.developedBy') }}
             <span class="text-lg font-normal">FEsujian</span>
         </div>
