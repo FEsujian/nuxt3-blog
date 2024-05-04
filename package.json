@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@floating-ui/vue": "1.0.6",
     "@formkit/auto-animate": "^0.8.1",
     "@nuxt/content": "^2.12.1",
     "@nuxtjs/strapi": "^1.12.0",
@@ -18,6 +19,7 @@
     "animate.css": "^4.1.1",
     "axios": "^1.6.8",
     "dayjs-nuxt": "^2.1.9",
+    "floating-vue": "5.2.2",
     "normalize.css": "^8.0.1",
     "nuxt": "^3.11.1",
     "nuxt-mail": "^5.0.0",

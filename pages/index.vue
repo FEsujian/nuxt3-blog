@@ -1,6 +1,6 @@
 <template>
   <div class="text-4xl font-bold text-center my-20">
-    <div class="text-4xl font-bold text-center my-20">Projects</div>
+    <div class="text-4xl font-bold text-center my-20">{{ $t('header.projects') }}</div>
     <div class="project-list grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-8">
       <div
         class="project-item shadow-lg rounded-lg overflow-hidden transition-transform transition-shadow transform hover:translate-y-[-5px] flex flex-col mx-4 sm:mx-0">
