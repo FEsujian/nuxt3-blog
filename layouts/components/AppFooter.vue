@@ -51,8 +51,11 @@
       <span class="text-lg font-normal">FEsujian</span>
     </div>
     <div class="text-center mt-5 text-sm font-light">
-      {{ $t('footer.copyright') }}
+      <a  href="https://beian.miit.gov.cn/" target="_blank">
+        {{ $t('footer.copyright') }}
+      </a>
     </div>
+
   </div>
 </template>
 
