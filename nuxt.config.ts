@@ -63,7 +63,7 @@ export default defineNuxtConfig({
     head: {
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1.0',
-      title: "FE sujian's Blog",
+      title: "FE sujian's Blog - 前端星球",
       meta: [{ name: 'description', content: "FE Sujian's Blog" }],
     },
   },
