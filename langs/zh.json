@@ -3,7 +3,8 @@
     "projects": "项目集",
     "aboutMe": "关于我",
     "contact": "联系我",
-    "hireMe": "聘请我"
+    "hireMe": "雇用我",
+    "home": "主页"
   },
   "footer": {
     "followMe": "关注我",
@@ -18,6 +19,38 @@
     "email": "邮箱",
     "phone": "电话",
     "projectContent": "项目内容",
-    "send": "发送"
+    "send": "发送",
+    "age": "年龄",
+    "birthday": "生日",
+    "wechat": "微信",
+    "occupation": "职业",
+    "address": "地址",
+    "age_value": "31 岁",
+    "birthday_value": "1993年5月26日",
+    "address_value": "陕西省西安市鄠邑区",
+    "email_value": "fesujian@qq.com",
+    "wechat_value": "FEsujian",
+    "occupation_value": "web前端开发工程师",
+    "greeting": "你好，我是 <span class='highlight'>前端苏健</span>",
+    "fromLocation": "我来自 <span class='highlight'>陕西·西安</span>",
+    "profession": "我是 <span class='highlight'>Web前端开发工程师</span>"
+  },
+  "projects": {
+    "meko": {
+      "title": "Meko.ai",
+      "description": "Meko.ai 是一款创新的艺术创作与互动平台，旨在帮助艺术家和创作者们最大化他们的潜力，轻松管理和展示他们的作品。无论你是插画师、作家、音乐家还是任何形式的创意者，Meko.ai 都能为你提供全方位的支持。"
+    },
+    "wyocrm": {
+      "title": "WYOCRM",
+      "description": "一个集成解决方案，内置二维码订购功能，专注于客户关系管理（CRM）和忠诚度计划。通过专用的CRM仪表板，我们帮助您生成订单！"
+    },
+    "muniubox": {
+      "title": "木牛盒子-会计财务软件",
+      "description": "木牛盒子帮您寻找客源、创建客户档案、持续跟进客户，详细记录客户从签约、服务、续约全生命周期服务的流程信息，并提供收款、续约等定期回访提醒功能，极早发现服务漏洞，有效避免客户满意度下降。"
+    },
+    "smartops": {
+      "title": "SmartOps多云管理平台",
+      "description": "基于自动化技术和管理服务帮助用户快速上云、合理使用云资源、简化云管理。帮助企业更好地利用云计算的便利性创造价值。"
+    }
   }
 }

@@ -3,7 +3,8 @@
     "projects": "Projects",
     "aboutMe": "About Me",
     "contact": "Contact",
-    "hireMe": "Hire Me"
+    "hireMe": "Hire Me",
+    "home": "Home"
   },
   "footer": {
     "followMe": "Follow Me",
@@ -18,6 +19,38 @@
     "email": "Email",
     "phone": "Phone",
     "projectContent": "Project Content",
-    "send": "Send"
+    "send": "Send",
+    "age": "Age",
+    "birthday": "Birthday",
+    "wechat": "Wechat",
+    "occupation": "Occupation",
+    "address": "Address",
+    "age_value": "31 years old",
+    "birthday_value": "May 26, 1993",
+    "address_value": "Huyi, Xi'an, Shaanxi",
+    "email_value": "fesujian@qq.com",
+    "wechat_value": "FEsujian",
+    "occupation_value": "Front-end Web Developer",
+    "greeting": "Hi, I am <span class='highlight'>FEsujian</span>",
+    "fromLocation": "I am <span class='highlight'>from Shaanxi·Xi'an</span>",
+    "profession": "I am <span class='highlight'>a Web Front-end Developer</span>"
+  },
+  "projects": {
+    "meko": {
+      "title": "Meko.ai",
+      "description": "Meko.ai is an innovative platform for artists and creators to manage and showcase their work. It supports illustrators, writers, musicians, and all types of creatives."
+    },
+    "wyocrm": {
+      "title": "WYOCRM",
+      "description": "An Integrated solution with built-in QR ordering and strong focus on CRM and Loyalty Progam. Together with a dedicated CRM dashboard, we help you yield orders!"
+    },
+    "muniubox": {
+      "title": "MuniuBox",
+      "description": "Muniu Box helps you find clients, create profiles, follow up, and keep detailed service records. It also provides payment and renewal reminders, helping to identify and address service gaps early."
+    },
+    "smartops": {
+      "title": "SmartOps",
+      "description": "Based on automation technology and management services to help users quickly move to the cloud, use cloud resources rationally, and simplify cloud management. Helping enterprises better utilize the convenience of cloud computing to create value."
+    }
   }
 }

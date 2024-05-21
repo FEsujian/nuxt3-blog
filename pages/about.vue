@@ -45,7 +45,7 @@
     position: relative;
     padding-left: 1.5rem;
     margin-bottom: 1rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     /* 控制文本与小圆点的距离 */
 }
 

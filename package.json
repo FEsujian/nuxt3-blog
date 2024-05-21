@@ -23,9 +23,11 @@
     "normalize.css": "^8.0.1",
     "nuxt": "^3.11.2",
     "nuxt-mail": "^5.0.1",
+    "typed-vue3": "^0.0.2",
     "vue": "^3.4.27",
     "vue-final-modal": "^4.5.4",
-    "vue-router": "^4.3.2"
+    "vue-router": "^4.3.2",
+    "vue3-typed-ts": "^1.0.3"
   },
   "devDependencies": {
     "@nuxtjs/color-mode": "^3.4.1",

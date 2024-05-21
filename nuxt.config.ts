@@ -42,6 +42,9 @@ export default defineNuxtConfig({
       },
     ],
   ],
+  // plugins: [
+  //   { src: '~/plugins/vue-typed-js', mode: 'client' }
+  // ],
   lucide: {
     namePrefix: 'Icon',
   },

@@ -10,25 +10,21 @@
         <nav class="flex flex-col items-center space-y-2 md:hidden mobile-menu animate__animated" v-show="isMenuOpen">
             <NuxtLinkLocale to="/" class="text-xl hover:text-blue-600 my-2" active-class="text-blue-600"
                 @click="isMenuOpen = false">
-                {{ $t('header.projects') }}
+                {{ $t('header.home') }}
             </NuxtLinkLocale>
-            <NuxtLinkLocale to="/about" class="text-xl hover:text-blue-600 my-2" active-class="text-blue-600"
+            <!-- <NuxtLinkLocale to="/about" class="text-xl hover:text-blue-600 my-2" active-class="text-blue-600"
                 @click="isMenuOpen = false">
                 {{ $t('header.aboutMe') }}
-            </NuxtLinkLocale>
-            <!-- Additional links can be added here -->
+            </NuxtLinkLocale> -->
         </nav>
 
         <!-- Middle Menu for Desktop -->
         <nav class="hidden md:flex items-center justify-center space-x-8 absolute left-1/2 transform -translate-x-1/2">
             <NuxtLinkLocale to="/" class="text-xl hover:text-blue-600" active-class="text-blue-600">
-                {{ $t('header.projects') }}
+                {{ $t('header.home') }}
             </NuxtLinkLocale>
-            <NuxtLinkLocale to="/about" class="text-xl hover:text-blue-600" active-class="text-blue-600">
+            <!-- <NuxtLinkLocale to="/about" class="text-xl hover:text-blue-600" active-class="text-blue-600">
                 {{ $t('header.aboutMe') }}
-            </NuxtLinkLocale>
-            <!-- <NuxtLinkLocale to="/contact" class="text-xl hover:text-blue-600" active-class="text-blue-600">
-                {{ $t('header.contact') }}
             </NuxtLinkLocale> -->
         </nav>
 
