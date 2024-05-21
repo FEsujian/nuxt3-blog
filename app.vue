@@ -1,3 +1,5 @@
+<!-- @format -->
+
 <template>
   <div>
     <NuxtLayout name="default">
@@ -6,15 +8,11 @@
   </div>
 </template>
 
-
 <script setup>
-const colorMode = useColorMode();
-// const { find } = useStrapi();
-
-// console.log(find, 'find')
-// const userList = find('posts')
-
-// console.log(userList, 'post')
+const { find } = useStrapi()
+const url = useStrapiUrl()
+const projectList = find('projects')
+console.log(projectList, 'projectList')
 </script>
 
 <style lang="scss">

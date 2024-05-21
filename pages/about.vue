@@ -6,6 +6,19 @@
                 <div class="w-48 h-48 rounded-full overflow-hidden mb-8">
                     <img src="@/assets/images/avatar.png" alt="Avatar">
                 </div>
+                <div>
+                    苏健
+                </div>
+                <div>
+                    是一名Web前端开发工程师
+                </div>
+                <div>
+                    生日:1993年5月26日
+                </div>
+                <div>
+                    来自陕西省西安市
+                </div>
+
                 <ul class="skill-list">
                     <li class="skill-item">对各个研发部从需求采集、原型图、UI设计、前端框架、数据库字表、前端后台开发、测试等工作内容流程熟悉，从2018年担任研发部经理4年
                     </li>
