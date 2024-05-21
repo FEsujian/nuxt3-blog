@@ -9,10 +9,10 @@
 </template>
 
 <script setup>
-const { find } = useStrapi()
-const url = useStrapiUrl()
-const projectList = find('projects')
-console.log(projectList, 'projectList')
+// const { find } = useStrapi()
+// const url = useStrapiUrl()
+// const projectList = find('projects')
+// console.log(projectList, 'projectList')
 </script>
 
 <style lang="scss">
