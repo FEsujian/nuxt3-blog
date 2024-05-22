@@ -31,9 +31,10 @@
     "email_value": "fesujian@qq.com",
     "wechat_value": "FEsujian",
     "occupation_value": "web前端开发工程师",
-    "greeting": "你好，我是 <span class='highlight'>前端苏健</span>",
+    "greeting": "你好，我是 <span class='highlight'>苏健</span>",
     "fromLocation": "我来自 <span class='highlight'>陕西·西安</span>",
-    "profession": "我是 <span class='highlight'>Web前端开发工程师</span>"
+    "profession": "我是 <span class='highlight'>Web前端开发工程师</span>",
+    "welcome": "欢迎来到<span class='highlight'>我的主页</span>"
   },
   "projects": {
     "meko": {

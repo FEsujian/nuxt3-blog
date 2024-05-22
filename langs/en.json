@@ -33,7 +33,8 @@
     "occupation_value": "Front-end Web Developer",
     "greeting": "Hi, I am <span class='highlight'>FEsujian</span>",
     "fromLocation": "I am <span class='highlight'>from Shaanxi·Xi'an</span>",
-    "profession": "I am <span class='highlight'>a Web Front-end Developer</span>"
+    "profession": "I am <span class='highlight'>a Web Front-end Developer</span>",
+    "welcome": "Welcome to <span class='highlight'> my website </span>"
   },
   "projects": {
     "meko": {

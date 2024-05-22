@@ -43,17 +43,19 @@ import { TypedComponent } from "typed-vue3";
 const { t } = useI18n();
 const typedStrings = ref([
     `<span>${t('contact.greeting')}</span>`,
+    `<span>${t('contact.profession')}</span>`,
     `<span>${t('contact.fromLocation',)}</span>`,
-    `<span>${t('contact.profession')}</span>`
+    `<span>${t('contact.welcome')}</span>`,
 ]);
 
 const options = {
     strings: typedStrings.value,
     typeSpeed: 50,
     loop: true,
-    onComplete(self) {
-        console.log("onComplete", self);
-    }
+    backSpeed: 20,
+    backDelay: 2000,
+    showCursor: false,
+    cursorChar: '|',
 };
 
 const avatarRef = ref(null);
@@ -112,13 +114,14 @@ onMounted(() => { });
 }
 
 .rotating {
-    animation: rotate 2s linear infinite;
+    animation: rotate 10s linear infinite;
 }
 
 .typing-string {
     overflow: hidden;
     position: relative;
     margin-bottom: 50px;
+    height: 50px;
 }
 </style>
 
