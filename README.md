@@ -1,10 +1,16 @@
-# Nuxt 3 Minimal Starter
+# Nuxt3-Blog
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Nuxt3-Blog 是一个基于 Nuxt3 框架开发的个人博客平台，专为介绍 FEsujian 的个人信息和专业知识而设计。这个博客不仅涵盖了 FEsujian 的职业经历、项目经验和技术文章，还包含了他在前端开发领域的深刻见解和实践技巧。
 
-## Setup
+## 在线预览
 
-Make sure to install the dependencies:
+[https://festar.net/](https://festar.net/)
+
+## 项目截图
+
+[![pkQZ91A.png](https://s21.ax1x.com/2024/05/23/pkQZ91A.png)](https://imgse.com/i/pkQZ91A)
+
+## 安装依赖
 
 ```bash
 # npm
@@ -15,14 +21,9 @@ pnpm install
 
 # yarn
 yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+## 开发
 
 ```bash
 # npm
@@ -34,13 +35,10 @@ pnpm run dev
 # yarn
 yarn dev
 
-# bun
-bun run dev
 ```
+启动开发服务器 `http://localhost:3000`
 
-## Production
-
-Build the application for production:
+## 编译
 
 ```bash
 # npm
@@ -51,12 +49,9 @@ pnpm run build
 
 # yarn
 yarn build
-
-# bun
-bun run build
 ```
 
-Locally preview production build:
+本地预览生产版本:
 
 ```bash
 # npm
@@ -67,9 +62,4 @@ pnpm run preview
 
 # yarn
 yarn preview
-
-# bun
-bun run preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
