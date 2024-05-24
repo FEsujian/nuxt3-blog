@@ -2,7 +2,8 @@
     <div class="introduce">
         <div class="typing-string">
             <TypedComponent :options="options">
-                <span class="typing"></span>
+                <span class="typing">
+                </span>
             </TypedComponent>
         </div>
         <div class="avatar-container w-40 h-40 rounded-full overflow-hidden mb-10" @mouseenter="handleMouseEnter"
@@ -41,21 +42,22 @@ import { ref, onMounted } from 'vue';
 import { TypedComponent } from "typed-vue3";
 
 const { t } = useI18n();
-const typedStrings = ref([
+const typedStrings = [
     `<span>${t('contact.greeting')}</span>`,
-    `<span>${t('contact.profession')}</span>`,
-    `<span>${t('contact.fromLocation',)}</span>`,
-    `<span>${t('contact.welcome')}</span>`,
-]);
+    // `<span>${t('contact.profession')}</span>`,
+    // `<span>${t('contact.fromLocation',)}</span>`,
+    // `<span>${t('contact.welcome')}</span>`,
+];
 
 const options = {
-    strings: typedStrings.value,
+    strings: typedStrings,
     typeSpeed: 50,
     loop: true,
     backSpeed: 20,
     backDelay: 2000,
     showCursor: false,
     cursorChar: '|',
+    contentType: 'html',
 };
 
 const avatarRef = ref(null);

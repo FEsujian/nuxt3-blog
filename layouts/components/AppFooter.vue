@@ -20,7 +20,7 @@
                     <Icon name="ant-design:qq-outlined" size="32" />
                 </a>
             </button>
-            <VTooltip :showTriggers="['click']" :hideTriggers="['focus']" :distance="12">
+            <VTooltip :showTriggers="['click']" :hideTriggers="['focus']" :distance="12" aria-id="popper">
                 <button class="p-3 rounded-lg dark:bg-gray-500 bg-gray-100 shadow contact-item">
                     <Icon name="ic:round-wechat" size="32" />
                 </button>

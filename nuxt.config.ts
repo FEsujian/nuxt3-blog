@@ -42,9 +42,6 @@ export default defineNuxtConfig({
       },
     ],
   ],
-  // plugins: [
-  //   { src: '~/plugins/vue-typed-js', mode: 'client' }
-  // ],
   lucide: {
     namePrefix: 'Icon',
   },
@@ -66,8 +63,8 @@ export default defineNuxtConfig({
     head: {
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1.0',
-      title: "FE sujian's Blog - 前端星球",
-      meta: [{ name: 'description', content: "FE Sujian's Blog" }],
+      title: "FEsujian前端技术",
+      meta: [{ name: 'description', content: "FESujian" }],
     },
   },
   colorMode: {
