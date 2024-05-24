@@ -10,6 +10,36 @@
             @mouseleave="handleMouseLeave">
             <img src="@/assets/images/avatar.png" alt="Avatar" class="avatar" ref="avatarRef">
         </div>
+        <div class="contact-list">
+            <button class="dark:bg-gray-500 bg-gray-100 shadow contact-item">
+                <a href="https://github.com/fesujian" target="_blank">
+                    <Icon name="uil:github" size="24" />
+                </a>
+            </button>
+            <button class="dark:bg-gray-500 bg-gray-100 shadow contact-item">
+                <a href="tencent://message/?uin=744929434&Site=Sambow&Menu=yes" class="!hidden !md:flex">
+                    <Icon name="ant-design:qq-outlined" size="24" />
+                </a>
+                <a href="mqqwpa://im/chat?chat_type=wpa&uin=744929434&version=1&src_type=web" class="!md:hidden !flex">
+                    <Icon name="ant-design:qq-outlined" size="24" />
+                </a>
+            </button>
+            <VTooltip :showTriggers="['click']" :hideTriggers="['focus']" :distance="12" aria-id="x-popper">
+                <button class="dark:bg-gray-500 bg-gray-100 shadow contact-item">
+                    <Icon name="ic:round-wechat" size="24" />
+                </button>
+                <template #popper>
+                    <div class="m-2">
+                        <img src="/assets/images/qrcode.png" style="width: 300px;height: auto;"></img>
+                    </div>
+                </template>
+            </VTooltip>
+            <button class="dark:bg-gray-500 bg-gray-100 shadow contact-item">
+                <a href="mailto:744929434@qq.com" target="_blank">
+                    <Icon name="mdi:email-fast" size="24" />
+                </a>
+            </button>
+        </div>
         <div class="item">
             <span class="label">{{ $t('contact.age') }} :</span>
             <span class="text">{{ $t('contact.age_value') }}</span>
@@ -124,6 +154,40 @@ onMounted(() => { });
     position: relative;
     margin-bottom: 50px;
     height: 50px;
+}
+
+.contact-list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+    .contact-item {
+        width: 38px;
+        height: 38px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        margin: 0 10px;
+        box-sizing: border-box;
+
+        a {
+            width: 36px;
+            height: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
+        }
+
+        &:hover {
+            background-color: #3b82f6;
+
+            .icon {
+                color: #fff;
+            }
+        }
+    }
 }
 </style>
 

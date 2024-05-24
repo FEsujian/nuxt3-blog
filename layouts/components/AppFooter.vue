@@ -34,7 +34,6 @@
                 <a href="mailto:744929434@qq.com" target="_blank">
                     <Icon name="mdi:email-fast" size="32" />
                 </a>
-
             </button>
         </div>
         <div class="text-center mt-10 font-light mx-5 md:mx-0">
