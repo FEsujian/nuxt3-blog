@@ -8,11 +8,15 @@
 
         <!-- Middle Menu for mobile -->
         <nav class="flex flex-col items-center space-y-2 md:hidden mobile-menu animate__animated" v-show="isMenuOpen">
-            <NuxtLinkLocale to="/" class="text-xl hover:text-blue-600 my-2" active-class="text-blue-600"
+            <NuxtLinkLocale to="/" class="text-xl hover:text-blue-500 my-2" active-class="text-blue-500"
                 @click="isMenuOpen = false">
                 {{ $t('header.home') }}
             </NuxtLinkLocale>
-            <!-- <NuxtLinkLocale to="/about" class="text-xl hover:text-blue-600 my-2" active-class="text-blue-600"
+            <NuxtLinkLocale to="/resume" class="text-xl hover:text-blue-500 my-2" active-class="text-blue-500"
+                @click="isMenuOpen = false">
+                {{ $t('header.resume') }}
+            </NuxtLinkLocale>
+            <!-- <NuxtLinkLocale to="/about" class="text-xl hover:text-blue-500 my-2" active-class="text-blue-500"
                 @click="isMenuOpen = false">
                 {{ $t('header.aboutMe') }}
             </NuxtLinkLocale> -->
@@ -20,10 +24,13 @@
 
         <!-- Middle Menu for Desktop -->
         <nav class="hidden md:flex items-center justify-center space-x-8 absolute left-1/2 transform -translate-x-1/2">
-            <NuxtLinkLocale to="/" class="text-xl hover:text-blue-600" active-class="text-blue-600">
+            <NuxtLinkLocale to="/" class="text-xl hover:text-blue-500" active-class="text-blue-500">
                 {{ $t('header.home') }}
             </NuxtLinkLocale>
-            <!-- <NuxtLinkLocale to="/about" class="text-xl hover:text-blue-600" active-class="text-blue-600">
+            <NuxtLinkLocale to="/resume" class="text-xl hover:text-blue-500" active-class="text-blue-500">
+                {{ $t('header.resume') }}
+            </NuxtLinkLocale>
+            <!-- <NuxtLinkLocale to="/about" class="text-xl hover:text-blue-500" active-class="text-blue-500">
                 {{ $t('header.aboutMe') }}
             </NuxtLinkLocale> -->
         </nav>

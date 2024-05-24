@@ -29,6 +29,18 @@
   background-color: #091a28;
   color: #ebf4f1;
 
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  a,
+  p,
+  span {
+    color: #ebf4f1;
+  }
+
   .lucide {
     color: #ebf4f1;
   }

@@ -74,9 +74,9 @@ import { TypedComponent } from "typed-vue3";
 const { t } = useI18n();
 const typedStrings = [
     `<span>${t('contact.greeting')}</span>`,
-    // `<span>${t('contact.profession')}</span>`,
-    // `<span>${t('contact.fromLocation',)}</span>`,
-    // `<span>${t('contact.welcome')}</span>`,
+    `<span>${t('contact.profession')}</span>`,
+    `<span>${t('contact.fromLocation',)}</span>`,
+    `<span>${t('contact.welcome')}</span>`,
 ];
 
 const options = {
