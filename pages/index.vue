@@ -65,6 +65,7 @@ import introduce from './introduce.vue';
 const goTo = (url, type = 'link') => {
   window.open(url, '_blank')
 }
+
 </script>
 
 <style lang="scss" scoped>

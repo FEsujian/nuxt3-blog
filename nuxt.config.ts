@@ -42,6 +42,9 @@ export default defineNuxtConfig({
       },
     ],
   ],
+  plugins: [
+    '~/plugins/baidu-analytics.js'
+  ],
   lucide: {
     namePrefix: 'Icon',
   },
