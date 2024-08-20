@@ -1,5 +1,3 @@
-<!-- @format -->
-
 <template>
     <div class="app-footer mb-10">
         <div class="pt-20 sm:pt-30 pb-8 mt-20 border-t-2 border-primary-light dark:border-secondary-dark"></div>
@@ -26,7 +24,7 @@
                 </button>
                 <template #popper>
                     <div class="m-2">
-                        <img src="/assets/images/qrcode.png" style="width: 300px;height: auto;"></img>
+                        <img src="/assets/images/qrcode.png" style="width: 300px;height: auto;" />
                     </div>
                 </template>
             </VTooltip>
@@ -44,18 +42,26 @@
         </div>
         <div class="text-center mt-5 text-sm font-light">
             <a href="https://beian.miit.gov.cn/" target="_blank">
-                {{ $t('footer.copyright') }}
+                {{ currentCopyright }}
             </a>
         </div>
-
     </div>
 </template>
 
 <script setup>
-const handleQQchat = () => {
-    window.open('mqqwpa://im/chat?chat_type=wpa&uin=744929434&version=1&src_type=web')
-    // window.open('tencent://message/?uin=744929434&Site=Sambow&Menu=yes')
-}
+import { ref, onMounted } from 'vue';
+
+const { t } = useI18n();
+const currentCopyright = ref('');
+
+onMounted(() => {
+    const currentDomain = window.location.hostname;
+    if (currentDomain.endsWith('festar.net')) {
+        currentCopyright.value = t('footer.copyright2');
+    } else {
+        currentCopyright.value = t('footer.copyright1');
+    }
+});
 </script>
 
 <style lang="scss" scoped>
