@@ -6,12 +6,15 @@ export default defineNuxtConfig({
     host: '0.0.0.0',
     port: 3001,
   },
+
   devtools: { enabled: true },
+
   css: [
     '~/assets/styles/index.scss',
     'vue-final-modal/style.css',
     'animate.css/animate.min.css',
   ],
+
   modules: [
     '@nuxtjs/i18n',
     '@nuxtjs/tailwindcss',
@@ -42,12 +45,15 @@ export default defineNuxtConfig({
       },
     ],
   ],
+
   plugins: [
     '~/plugins/baidu-analytics.js'
   ],
+
   lucide: {
     namePrefix: 'Icon',
   },
+
   strapi: {
     url: process.env.STRAPI_URL || 'http://localhost:1337',
     prefix: '/api',
@@ -56,12 +62,14 @@ export default defineNuxtConfig({
     cookie: {},
     cookieName: 'strapi_jwt',
   },
+
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
   },
+
   app: {
     head: {
       charset: 'utf-8',
@@ -70,6 +78,7 @@ export default defineNuxtConfig({
       meta: [{ name: 'description', content: "FESujian" }],
     },
   },
+
   colorMode: {
     preference: 'system',
     fallback: 'light',
@@ -80,10 +89,22 @@ export default defineNuxtConfig({
     classSuffix: '',
     storageKey: 'nuxt-color-mode',
   },
+
   i18n: {
     strategy: 'prefix_and_default', // 添加路由前缀的方式
     locales: ['en', 'zh'], //配置语种
     defaultLocale: 'zh', // 默认语种
     vueI18n: './i18n.config.ts', // 通过vueI18n配置
   },
+
+  compatibilityDate: '2024-09-27',
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          silenceDeprecations: ["legacy-js-api"],
+        },
+      },
+    },
+  }
 })
