@@ -74,8 +74,21 @@ export default defineNuxtConfig({
     head: {
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1.0',
-      title: "FEsujian前端技术",
-      meta: [{ name: 'description', content: "FESujian" }],
+      title: "立虎科技 - 专业的软件开发与数字化转型服务商",
+      meta: [
+        { name: 'description', content: "立虎科技是专注于企业数字化转型的软件开发服务商，提供企业级应用开发、移动应用、Web开发等全方位技术服务，助力企业提升运营效率和竞争力。" },
+        { name: 'keywords', content: "立虎科技,软件开发,企业级应用,移动应用开发,数字化转型,西安软件公司" },
+        { property: 'og:title', content: "立虎科技 - 专业的软件开发与数字化转型服务商" },
+        { property: 'og:description', content: "立虎科技是专注于企业数字化转型的软件开发服务商，提供企业级应用开发、移动应用、Web开发等全方位技术服务，助力企业提升运营效率和竞争力。" },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:url', content: 'https://www.lihutech.com' },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:title', content: "立虎科技 - 专业的软件开发与数字化转型服务商" },
+        { name: 'twitter:description', content: "立虎科技是专注于企业数字化转型的软件开发服务商，提供企业级应用开发、移动应用、Web开发等全方位技术服务。" },
+      ],
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      ]
     },
   },
 

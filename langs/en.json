@@ -11,8 +11,7 @@
     "followMe": "Follow Me",
     "createdBy": "Created by {name}",
     "developedBy": "Developed by",
-    "copyright1": "© 2024 All Rights Reserved. Shaanxi ICP License No. 2020014459-2",
-    "copyright2": "© 2024 All Rights Reserved. Shaanxi ICP License No. 2020014459-4"
+    "copyright": "© 2024 All Rights Reserved. Shaanxi ICP License No. 2020014459-1"
   },
   "contact": {
     "closeModal": "Close",

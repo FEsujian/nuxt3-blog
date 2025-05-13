@@ -20,6 +20,9 @@ importers:
       '@nuxtjs/strapi':
         specifier: ^1.12.0
         version: 1.12.0(magicast@0.3.5)(rollup@4.22.4)
+      '@pinia-plugin-persistedstate/nuxt':
+        specifier: ^1.2.1
+        version: 1.2.1(@pinia/nuxt@0.5.4(magicast@0.3.5)(rollup@4.22.4)(vue@3.5.9))(magicast@0.3.5)(pinia@2.2.2(vue@3.5.9))(rollup@4.22.4)
       '@pinia/nuxt':
         specifier: ^0.5.4
         version: 0.5.4(magicast@0.3.5)(rollup@4.22.4)(vue@3.5.9)
@@ -75,9 +78,6 @@ importers:
       '@nuxtjs/tailwindcss':
         specifier: npm:@nuxtjs/tailwindcss@nightly
         version: 6.12.2-1722531999.1be5497(magicast@0.3.5)(rollup@4.22.4)
-      '@pinia-plugin-persistedstate/nuxt':
-        specifier: ^1.2.1
-        version: 1.2.1(@pinia/nuxt@0.5.4(magicast@0.3.5)(rollup@4.22.4)(vue@3.5.9))(magicast@0.3.5)(pinia@2.2.2(vue@3.5.9))(rollup@4.22.4)
       nuxt-icon:
         specifier: ^0.6.10
         version: 0.6.10(magicast@0.3.5)(rollup@4.22.4)(vite@5.4.8(@types/node@22.7.3)(sass@1.79.3)(terser@5.34.0))(vue@3.5.9)
